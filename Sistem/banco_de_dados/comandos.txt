@@ -1,0 +1,21 @@
+docker-compose up
+docker ps
+docker ps -a
+
+docker images
+docker volume ls
+docker network ls
+
+
+docker inspect <container_id>
+docker logs <container_id>
+
+
+--- 
+
+docker stop <container_id>
+docker rm $(docker ps -a -q)
+docker image prune
+
+
+docker-compose down
